@@ -1,0 +1,19 @@
+body{
+    background-color:black;
+    color: azure;
+    text-align: center;
+}
+
+#topic {
+    color: rgb(113, 113, 210);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15%;
+}
+div{
+    margin-top: 5%;
+}
+#sub{
+    color: red;
+}
+
