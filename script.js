@@ -1,8 +1,7 @@
-
 var randomN = Math.floor(Math.random()*10)+1
 console.log("Random number is :"+randomN)
 
-var score = 10
+var score = 100
 
 function check() {
     var input = document.getElementById("inputBox")
@@ -13,6 +12,7 @@ function check() {
 
     if(n>=1 && n<=10){
         if(randomN == n){
+            score++
             console.log("You are Right!") 
             r.textContent = "Your guess is right!"
         }
@@ -20,9 +20,9 @@ function check() {
             score--
             console.log("You are wrong!")
             r.textContent = "Your guess is wrong!"
-            o.textContent = "Your Score: "+ score
-            console.log("Your Score: "+ score)
         }
+        o.textContent = "Your Score: "+ score
+        console.log("Your Score: "+ score)
     }
     else {
         r.textContent = "Enter number between 1 to 10!"

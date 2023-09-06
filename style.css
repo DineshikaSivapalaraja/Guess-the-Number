@@ -1,19 +1,27 @@
 body{
     background-color:black;
-    color: azure;
+    color: rgb(103, 222, 222);
     text-align: center;
 }
-
-#topic {
-    color: rgb(113, 113, 210);
+#topic {  
     font-weight: bold;
     font-size: 30px;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 div{
     margin-top: 5%;
 }
+#out{
+    color:red;
+}
+#inputBox{
+    padding: 10px;
+    text-align: center;
+    font-size:25px;
+    background-color: beige;
+    color:brown;
+}
 #sub{
-    color: red;
+    font-size: 20px;
 }
 
